@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <h2>Contact Form</h2>
+      <label for="First_Name"
+        >First name: <span aria-label="required">*</span></label
+      >
+      <input type="text" placeholder="" id="First_Name" />
+      <label for="Last_Name"
+        >Last name: <span aria-label="required">*</span></label
+      >
+      <input type="text" placeholder="" id="Last_Name" />
+      <br />
+      <br />
+      <label for="E-Mail">E-Mail: <span aria-label="required">*</span></label>
+      <input type="email" placeholder="" id="E-Mail" />
+      <label for="Mobile_No"
+        >Mobile No: <span aria-label="required">*</span></label
+      >
+      <input type="numbers" placeholder="" id="number" minlength="10" />
+      <br />
+      <br />
+      <label for="Username"
+        >Username: <span aria-label="required">*</span></label
+      >
+      <input
+        type="alphabets"
+        placeholder=""
+        id="alphabets"
+        minlength="8"
+        maxlength="15"
+        required
+      />
+      <br />
+      <br />
+      <label for="Password"
+        >Password: <span aria-label="required">*</span></label
+      >
+      <input
+        type="alphanumeric"
+        placeholder=""
+        id="alphanumeric"
+        minlength="8"
+        maxlength="15"
+        required
+      />
+      <br />
+      <br />
+      <label for="Upload_Resume"
+        >Upload Resume: <span aria-label="required">*</span></label
+      >
+      <input type="file" placeholder="number" id="Upload_Resume" />
+      <br />
+      <br />
+
+      <button type="reset">Reset</button>
+      <button type="Submit">Submit</button>
+    </form>
+  </body>
+</html>
